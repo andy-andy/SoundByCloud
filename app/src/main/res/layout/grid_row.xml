@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerInParent="true" >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play_button">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/filepath"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#8cc63e"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+</RelativeLayout>
